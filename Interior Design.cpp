@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b,c,d,x,y;
+	    cin>>a>>b>>c>>d;
+	    x=a+b;
+	    y=c+d;
+	    if(x<y){
+	        cout<<x<<endl;
+	    }
+	    else{
+	        cout<<y<<endl;
+	    }
+	}
+	return 0;
+}
